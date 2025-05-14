@@ -17,7 +17,7 @@ const billy_card: CardData = {
     stars: 10,
     downloads: 300,
     img: '/billy.gif',
-    name: 'First Item',
+    name: 'Billy',
     is_blocked: true,
 };
 
