@@ -1,4 +1,6 @@
-#### GMDownloader
+<h1 align="center">
+    GMDownloader
+</h1>
 
 <p align="center">
     <img src="https://i.imgur.com/P9L5wrv.png" alt="Logo" style="width:50%; height:auto;">
