@@ -4,8 +4,7 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "init_db": "node src/init_db.js",
-        "dev": "npm run init_db && next dev --turbopack",
+        "dev": "next dev --turbopack",
         "build": "next build",
         "start": "next start",
         "lint": "next lint"

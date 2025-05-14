@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import CardData from '@/types/CardData';
 import Header from '@/components/Header';
 import Bottom from '@/components/Bottom';
+import axios from 'axios';
 
 export default function Home() {
     const user_id = 0;
@@ -23,6 +24,16 @@ export default function Home() {
     };
 
     useEffect(update_cards, [activeBtnID]);
+    useEffect(() => {
+        const init = async () => {
+            try {
+                await axios.post('/api/init');
+            } catch {
+                process.exit();
+            }
+        };
+        init();
+    }, []);
 
     return (
         <div className='min-w-[800px] min-h-[700px] h-full bg-[rgb(26,26,26)]'>

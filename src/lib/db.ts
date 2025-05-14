@@ -10,11 +10,6 @@ const config = {
 
 const pool = new Pool(config);
 
-export const has_tbl = async (tbl_name) => {
-    const result = await pool.query(`SELECT to_regclass('public.${tbl_name}');`);
-    return result.rows[0].to_regclass !== null;
-};
-
 export const init_db = async () => {
     try {
         await pool.query(`
@@ -39,7 +34,7 @@ export const init_db = async () => {
     }
 };
 
-export const save_user = async (name, password) => {
+export const save_user = async (name: string, password: string) => {
     try {
         const result = await pool.query(`INSERT INTO users (name, password) VALUES ($1, $2);`, [name, password]);
         return result.rows[0].id;
@@ -48,7 +43,7 @@ export const save_user = async (name, password) => {
     }
 };
 
-export const save_addon = async (user_id, addon_id, addon_path) => {
+export const save_addon = async (user_id: number, addon_id: number, addon_path: string) => {
     try {
         const result = await pool.query(
             `INSERT INTO addons (user_id, workshop_id, path) 
@@ -62,7 +57,7 @@ export const save_addon = async (user_id, addon_id, addon_path) => {
     }
 };
 
-export const get_user_addons = async (user_id) => {
+export const get_user_addons = async (user_id: number) => {
     try {
         return (await pool.query(`SELECT id, workshop_id, path FROM addons WHERE user_id = $1;`, [user_id])).rows;
     } catch (err) {

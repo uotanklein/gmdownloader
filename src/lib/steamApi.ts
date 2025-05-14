@@ -4,7 +4,7 @@ import axios from 'axios';
 import fsp from 'fs/promises';
 import { spawn } from 'child_process';
 import path from 'path';
-import * as dbApi from './db.js';
+import * as dbApi from '@/lib/db';
 
 export const search = async (addon_id: number) => {
     try {
@@ -149,7 +149,7 @@ class AddonDownloader {
     }
 
     async save() {
-        if (!this.id) {
+        if (!this.id && this.source_path) {
             try {
                 this.id = await dbApi.save_addon(this.user_id, this.addon_id, this.source_path);
             } catch (err) {
