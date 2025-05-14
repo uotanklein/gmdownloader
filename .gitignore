@@ -48,5 +48,5 @@ src/data/source/*
 !src/data/source/.gitkeep
 
 src/bin/*
-!src/bin/gmad.exe
-!src/bin/steamcmd.exe
+# !src/bin/gmad.exe
+# !src/bin/steamcmd.exe
