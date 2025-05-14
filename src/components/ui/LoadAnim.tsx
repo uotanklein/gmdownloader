@@ -1,3 +1,4 @@
+'use client';
 import cn from 'classnames';
 
 export default function LoadAnim(props: { hide?: boolean }) {

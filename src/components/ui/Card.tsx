@@ -1,3 +1,4 @@
+'use client';
 import { Quicksand } from 'next/font/google';
 import CardData from '@/types/CardData';
 import Image from 'next/image';

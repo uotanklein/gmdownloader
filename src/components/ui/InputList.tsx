@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import cn from 'classnames';
 import { Quicksand } from 'next/font/google';
@@ -32,7 +33,7 @@ export default function InputList(props: { els_data: Array<InputElData>; hide: b
                 });
                 return (
                     <button key={id} className={el_cn} onClick={() => handlerClick(el_data)}>
-                        <Image src={`${el_data.icon}`} width={40} height={40} alt='input_el_icon' className='w-[40px] h-[40px] mr-[15px]' />
+                        <Image src={`${el_data.icon}`} width={40} height={40} alt='input_el_icon' className='w-[40px] h-[40px] mr-[15px]' unoptimized />
                         <p className={`${quicksand.variable} text-xl flex justify-start items-center`}>{el_data.text}</p>
                     </button>
                 );

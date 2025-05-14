@@ -1,5 +1,4 @@
 'use client';
-
 import { Quicksand } from 'next/font/google';
 import Input from '@/components/ui/Input';
 
@@ -8,7 +7,7 @@ const good_map = ['Good morning', 'Good day', 'Good evening', 'Good night'];
 const get_time_of_day = () => {
     const now = new Date();
     const hours = now.getHours();
-    if (hours >= 6 && hours < 12) {
+    if (hours >= 4 && hours < 12) {
         return 0;
     } else if (hours >= 12 && hours < 17) {
         return 1;
@@ -28,7 +27,8 @@ const quicksand = Quicksand({
 const get_good_text = () => good_map[get_time_of_day()];
 const anon_text = 'Anonymous';
 
-export default function Header() {
+export default function Header(props: { update_cards?: () => void }) {
+    const { update_cards } = props;
     const top_text = `${get_good_text()}, ${anon_text}!`;
     return (
         <div className={`fixed w-full flex h-[70px] bg-[rgb(50,50,50)] p-[14px] box-border shadow-md`}>
@@ -43,7 +43,7 @@ export default function Header() {
                     </button>
                     <p className={`${quicksand.className} text-xl mr-[15px]`}>{top_text}</p>
                 </div>
-                <Input name='search' placeholder='Search...' d='M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z' />
+                <Input name='search' placeholder='Search...' d='M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z' update_cards={update_cards} />
                 <div className='w-15'>
                     {/* <button className='flex justify-center items-center hover:cursor-pointer'>
                         <svg

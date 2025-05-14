@@ -56,7 +56,7 @@ class AddonDownloader {
     async download() {
         const download_dir = path.join(output_dir, this.user_id.toString());
         await fsp.mkdir(download_dir, { recursive: true });
-        const commands = ['+force_install_dir', download_dir, '+login', 'anonymous', '+workshop_download_item', app_id.toString(), this.addon_id.toString(), '+quit'];
+        const commands = ['+force_install_dir', path.resolve(download_dir), '+login', 'anonymous', '+workshop_download_item', app_id.toString(), this.addon_id.toString(), '+quit'];
 
         return new Promise<void>((resolve, reject) => {
             const scmd = spawn(scmd_exe, commands);
@@ -100,7 +100,7 @@ class AddonDownloader {
         if (!this.gma_path) return;
 
         const outputPath = path.join(output_source_dir, this.user_id.toString(), path.basename(this.gma_path, path.extname(this.gma_path)));
-        const args = ['extract', '-file', this.gma_path, '-out', outputPath];
+        const args = ['extract', '-file', path.resolve(this.gma_path), '-out', path.resolve(outputPath)];
 
         return new Promise<void>((resolve, reject) => {
             const process = spawn(gmad_exe, args);

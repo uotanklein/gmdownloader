@@ -1,13 +1,14 @@
+'use client';
 import { useState, ChangeEvent, useEffect } from 'react';
 import cn from 'classnames';
 import LoadAnim from '@/components/ui/LoadAnim';
 import InputList from '@/components/ui/InputList';
 import axios from 'axios';
 import InputElData from '@/types/InputElData';
-export default function Input(props: { name: string; placeholder: string; d: string }) {
+export default function Input(props: { name: string; placeholder: string; d: string; update_cards?: () => void }) {
     const user_id = 0;
 
-    const { name, placeholder, d } = props;
+    const { name, placeholder, d, update_cards } = props;
     const [text, setText] = useState('');
     const [isFocused, setIsFocused] = useState(false);
     const [addonData, setAddonData] = useState<InputElData | null>(null);
@@ -111,6 +112,9 @@ export default function Input(props: { name: string; placeholder: string; d: str
                             try {
                                 const audio = new Audio('/audio/public_sound_success.ogg');
                                 audio.play();
+                                if (update_cards) {
+                                    update_cards();
+                                }
                             } catch (err) {
                                 console.log(err);
                             }

@@ -9,7 +9,7 @@ export async function GET(_: NextRequest, { params }: { params: Promise<{ user_i
             status: 200,
         });
     } catch (err) {
-        console.log('Failed to get user addons:', err);
+        console.log(err);
         return new Response(JSON.stringify([]), {
             status: 200,
         });

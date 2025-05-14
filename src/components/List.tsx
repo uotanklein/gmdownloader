@@ -1,3 +1,4 @@
+'use client';
 import Card from '@/components/ui/Card';
 import CardData from '@/types/CardData';
 

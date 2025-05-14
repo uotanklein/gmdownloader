@@ -1,5 +1,4 @@
 'use client';
-
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Quicksand } from 'next/font/google';
@@ -34,7 +33,7 @@ export default function Nav() {
                 })}
             </div>
             <Link href={git_link} className='flex flex-col justify-center items-center hover:cursor-pointer'>
-                <Image src={`${logo_link}`} width={50} height={50} alt='icon' className='mb-[10px] mask-radial-at-center mask-radial-from-100%' />
+                <Image src={`${logo_link}`} width={50} height={50} alt='icon' className='mb-[10px] mask-radial-at-center mask-radial-from-100%' unoptimized />
                 <p className={`${quicksand.className} text-xl flex`}>gmdownloader</p>
             </Link>
         </div>
