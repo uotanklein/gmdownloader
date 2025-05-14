@@ -1,0 +1,154 @@
+
+
+[2025-05-13 17:14:36] Client version: 1745888136
+[2025-05-13 17:14:36] Loaded 0 apps from install folder "x:\uotanklein\desktop\gmdownloader\src\data\3478240689\steamapps\appmanifest_*.acf".
+[2025-05-13 17:14:36] Triggered async write of Steam library folders configuration (1 libraries).
+[2025-05-13 17:14:39] AppID 4000 scheduler update : Priority First, not played for 1747145679 seconds, update disabled for 0 seconds
+[2025-05-13 17:14:39] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 17:14:39] AppID 4000 Workshop update changed : Running Update,Reconfiguring,
+[2025-05-13 17:14:40] Got 13 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 149 / Launcher 3)
+[2025-05-13 17:14:40] Moving to source priority class '2'
+[2025-05-13 17:14:40] Created download interface of type 'CDN' (2) to host alibaba.cdn.steampipe.steamcontent.com (alibaba.cdn.steampipe.steamcontent.com)
+[2025-05-13 17:14:40] Created download interface of type 'CDN' (2) to host edgenext.cdn.steampipe.steamcontent.com (edgenext.cdn.steampipe.steamcontent.com)
+[2025-05-13 17:14:40] Created download interface of type 'SteamCache' (7) to host cache1-sto2.steamcontent.com (cache1-sto2.steamcontent.com)
+[2025-05-13 17:14:40] HTTP (CDN,33) - alibaba.cdn.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: alibaba.cdn.steampipe.steamcontent.com): AuthenticateDepotID (4000) - Success!
+[2025-05-13 17:14:41] HTTP/2 available
+[2025-05-13 17:14:41] Created ipv4-only http client
+[2025-05-13 17:14:42] HTTP (CDN,33) - alibaba.cdn.steampipe.steamcontent.com (0.0.0.0:80 / 0.0.0.0:80, host: alibaba.cdn.steampipe.steamcontent.com): alibaba.cdn.steampipe.steamcontent.com/depot/4000/manifest/3557583516193647639/5/8167807058757536568 - received 0 (Invalid) HTTP response
+[2025-05-13 17:14:42] IPv6 Connectivity state has changed, downgrading to ipv4-only
+[2025-05-13 17:14:42] HTTP (CDN,33) - alibaba.cdn.steampipe.steamcontent.com (0.0.0.0:80 / 0.0.0.0:80, host: alibaba.cdn.steampipe.steamcontent.com): Closing connection
+[2025-05-13 17:14:42] stats: (CDN, 33) alibaba.cdn.steampipe.steamcontent.com: 0 Bytes, 0 sec (0.00 Mbps). 0 Hits / 0 Misses (0 %, 0 % bytes)
+[2025-05-13 17:14:42] Moving to source priority class '1'
+[2025-05-13 17:14:42] Created download interface of type 'CDN' (2) to host steampipe.akamaized.net (steampipe.akamaized.net)
+[2025-05-13 17:14:43] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: edgenext.cdn.steampipe.steamcontent.com): AuthenticateDepotID (4000) - Success!
+[2025-05-13 17:14:43] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (154.85.67.74:80 / 154.85.67.74:80, host: edgenext.cdn.steampipe.steamcontent.com): edgenext.cdn.steampipe.steamcontent.com/depot/4000/manifest/3557583516193647639/5/8167807058757536568 - received 200 (OK) HTTP response
+[2025-05-13 17:14:43] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 17:14:43] AppID 4000 Workshop update changed : Running Update,Preallocating,
+[2025-05-13 17:14:43] AppID 4000 preallocated 1 files (30 MB) 
+[2025-05-13 17:14:43] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 17:14:43] AppID 4000 update started : download 0/9595344, store 0/0, reuse 0/0, delta 0/0, stage 0/31541723 
+[2025-05-13 17:14:43] AppID 4000 Workshop update changed : Running Update,Downloading,Staging,
+[2025-05-13 17:14:43] Downloading 31 chunks from depot 4000
+[2025-05-13 17:14:44] HTTP (CDN,11) - steampipe.akamaized.net (0.0.0.0:0 / 0.0.0.0:0, host: steampipe.akamaized.net): AuthenticateDepotID (4000) - Success!
+[2025-05-13 17:14:44] HTTPS (SteamCache,199) - cache1-sto2.steamcontent.com (155.133.252.4:443 / 155.133.252.4:443, host: cache1-sto2.steamcontent.com): Negotiated HTTP/2
+[2025-05-13 17:14:44] HTTPS (CDN,11) - steampipe.akamaized.net (23.196.236.11:443 / 23.196.236.11:443, host: steampipe.akamaized.net): Negotiated HTTP/2
+[2025-05-13 17:14:45] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 17:14:45] AppID 4000 Workshop update changed : Running Update,Committing,
+[2025-05-13 17:14:45] AppID 4000 starting commit from "x:\uotanklein\desktop\gmdownloader\src\data\3478240689\steamapps\workshop/downloads/4000" to "x:\uotanklein\desktop\gmdownloader\src\data\3478240689\steamapps\workshop/content/4000" : 2 updated, 0 moved, 0 deleted files
+[2025-05-13 17:14:45] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 17:14:45] AppID 4000 Workshop update changed : None
+[2025-05-13 17:14:45] AppID 4000 scheduler finished : removed from schedule (result No Error, state 0x0) 
+[2025-05-13 17:14:45] HTTP/2 (CDN,11) - steampipe.akamaized.net (23.196.236.11:443 / 23.196.236.11:443, host: steampipe.akamaized.net): Closing connection
+[2025-05-13 17:14:45] HTTP/2 (SteamCache,199) - cache1-sto2.steamcontent.com (155.133.252.4:443 / 155.133.252.4:443, host: cache1-sto2.steamcontent.com): Closing connection
+[2025-05-13 17:14:45] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (154.85.67.74:80 / 154.85.67.74:80, host: edgenext.cdn.steampipe.steamcontent.com): Closing connection
+
+
+[2025-05-13 18:10:48] Client version: 1745888136
+[2025-05-13 18:10:48] Loaded 0 apps from install folder "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\appmanifest_*.acf".
+[2025-05-13 18:10:48] Triggered async write of Steam library folders configuration (1 libraries).
+[2025-05-13 18:10:50] AppID 4000 scheduler update : Priority First, not played for 1747149050 seconds, update disabled for 0 seconds
+[2025-05-13 18:10:50] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:10:50] AppID 4000 Workshop update changed : Running Update,Reconfiguring,
+[2025-05-13 18:10:51] Got 7 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 149 / Launcher 3)
+[2025-05-13 18:10:51] Moving to source priority class '2'
+[2025-05-13 18:10:51] Created download interface of type 'CDN' (2) to host edgenext.cdn.steampipe.steamcontent.com (edgenext.cdn.steampipe.steamcontent.com)
+[2025-05-13 18:10:51] Created download interface of type 'CDN' (2) to host alibaba.cdn.steampipe.steamcontent.com (alibaba.cdn.steampipe.steamcontent.com)
+[2025-05-13 18:10:51] Created download interface of type 'SteamCache' (7) to host cache7-fra2.steamcontent.com (cache7-fra2.steamcontent.com)
+[2025-05-13 18:10:51] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: edgenext.cdn.steampipe.steamcontent.com): AuthenticateDepotID (4000) - Success!
+[2025-05-13 18:10:52] HTTP/2 available
+[2025-05-13 18:10:52] Created ipv4-only http client
+[2025-05-13 18:10:52] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (38.175.43.254:80 / 38.175.43.254:80, host: edgenext.cdn.steampipe.steamcontent.com): edgenext.cdn.steampipe.steamcontent.com/depot/4000/manifest/1320782847369301108/5/3745404170209793895 - received 200 (OK) HTTP response
+[2025-05-13 18:10:52] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:10:52] AppID 4000 Workshop update changed : Running Update,Preallocating,
+[2025-05-13 18:10:52] AppID 4000 preallocated 0 files (0 MB) 
+[2025-05-13 18:10:52] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:10:52] AppID 4000 update started : download 0/94096, store 0/0, reuse 0/0, delta 0/0, stage 0/198504 
+[2025-05-13 18:10:52] AppID 4000 Workshop update changed : Running Update,Downloading,Staging,
+[2025-05-13 18:10:52] Downloading 1 chunks from depot 4000
+[2025-05-13 18:10:53] HTTPS (SteamCache,247) - cache7-fra2.steamcontent.com (155.133.226.40:443 / 155.133.226.40:443, host: cache7-fra2.steamcontent.com): Negotiated HTTP/2
+[2025-05-13 18:10:53] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:10:53] AppID 4000 Workshop update changed : Running Update,Committing,
+[2025-05-13 18:10:53] AppID 4000 starting commit from "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop/downloads/4000" to "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop/content/4000" : 2 updated, 0 moved, 0 deleted files
+[2025-05-13 18:10:53] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:10:53] AppID 4000 Workshop update changed : None
+[2025-05-13 18:10:53] AppID 4000 scheduler finished : removed from schedule (result No Error, state 0x0) 
+[2025-05-13 18:10:53] HTTP/2 (SteamCache,247) - cache7-fra2.steamcontent.com (155.133.226.40:443 / 155.133.226.40:443, host: cache7-fra2.steamcontent.com): Closing connection
+[2025-05-13 18:10:53] HTTP (CDN,33) - alibaba.cdn.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: alibaba.cdn.steampipe.steamcontent.com): Closing connection
+[2025-05-13 18:10:53] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (38.175.43.254:80 / 38.175.43.254:80, host: edgenext.cdn.steampipe.steamcontent.com): Closing connection
+
+
+[2025-05-13 18:17:53] Client version: 1745888136
+[2025-05-13 18:17:53] Loaded 0 apps from install folder "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\appmanifest_*.acf".
+[2025-05-13 18:17:53] Triggered async write of Steam library folders configuration (1 libraries).
+[2025-05-13 18:17:54] AppID 4000 scheduler update : Priority First, not played for 1747149474 seconds, update disabled for 0 seconds
+[2025-05-13 18:17:54] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:17:54] AppID 4000 Workshop update changed : Running Update,Reconfiguring,
+[2025-05-13 18:17:55] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:17:55] AppID 4000 Workshop update changed : Running Update,Verifying Installed,
+[2025-05-13 18:17:55] Validating active workshop item 3476612748 ...
+[2025-05-13 18:17:55] Validation: missing file "3476612748\gmpublisher.gma"
+[2025-05-13 18:17:55] Validation: quick scan in "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop/content/4000" found 1/1 mismatching files (0 seconds).
+[2025-05-13 18:17:55] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:17:55] AppID 4000 Workshop update changed : Running Update,Preallocating,
+[2025-05-13 18:17:55] AppID 4000 preallocated 0 files (0 MB) 
+[2025-05-13 18:17:55] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:17:55] AppID 4000 update started : download 0/94096, store 0/0, reuse 0/0, delta 0/0, stage 0/198504 
+[2025-05-13 18:17:55] AppID 4000 Workshop update changed : Running Update,Downloading,Staging,
+[2025-05-13 18:17:55] Got 7 download sources and 0 caching proxies via ContentServerDirectoryService::BYieldingGetServersForSteamPipe (CellID 149 / Launcher 3)
+[2025-05-13 18:17:55] Moving to source priority class '2'
+[2025-05-13 18:17:55] Created download interface of type 'CDN' (2) to host edgenext.cdn.steampipe.steamcontent.com (edgenext.cdn.steampipe.steamcontent.com)
+[2025-05-13 18:17:55] Created download interface of type 'CDN' (2) to host steampipe.akamaized.net (steampipe.akamaized.net)
+[2025-05-13 18:17:55] Created download interface of type 'CDN' (2) to host fastly.cdn.steampipe.steamcontent.com (fastly.cdn.steampipe.steamcontent.com)
+[2025-05-13 18:17:55] Downloading 1 chunks from depot 4000
+[2025-05-13 18:17:55] HTTP (CDN,31) - fastly.cdn.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: fastly.cdn.steampipe.steamcontent.com): AuthenticateDepotID (4000) - Success!
+[2025-05-13 18:17:55] HTTP/2 available
+[2025-05-13 18:17:55] Created ipv4-only http client
+[2025-05-13 18:17:56] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:17:56] AppID 4000 Workshop update changed : Running Update,Committing,
+[2025-05-13 18:17:56] AppID 4000 starting commit from "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop/downloads/4000" to "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop/content/4000" : 1 updated, 0 moved, 0 deleted files
+[2025-05-13 18:17:56] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:17:56] AppID 4000 Workshop update changed : None
+[2025-05-13 18:17:56] AppID 4000 scheduler finished : removed from schedule (result No Error, state 0x0) 
+[2025-05-13 18:17:56] HTTPS (CDN,31) - fastly.cdn.steampipe.steamcontent.com (146.75.123.82:443 / 146.75.123.82:443, host: fastly.cdn.steampipe.steamcontent.com): Closing connection
+[2025-05-13 18:17:56] HTTP (CDN,11) - steampipe.akamaized.net (0.0.0.0:0 / 0.0.0.0:0, host: steampipe.akamaized.net): Closing connection
+[2025-05-13 18:17:56] HTTP (CDN,29) - edgenext.cdn.steampipe.steamcontent.com (0.0.0.0:0 / 0.0.0.0:0, host: edgenext.cdn.steampipe.steamcontent.com): Closing connection
+
+
+[2025-05-13 18:19:02] Client version: 1745888136
+[2025-05-13 18:19:02] Loaded 0 apps from install folder "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\appmanifest_*.acf".
+[2025-05-13 18:19:02] Triggered async write of Steam library folders configuration (1 libraries).
+[2025-05-13 18:19:03] AppID 4000 scheduler update : Priority First, not played for 1747149543 seconds, update disabled for 0 seconds
+[2025-05-13 18:19:03] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:19:03] AppID 4000 Workshop update changed : Running Update,Reconfiguring,
+[2025-05-13 18:19:04] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:19:04] AppID 4000 Workshop update changed : Running Update,Verifying Installed,
+[2025-05-13 18:19:04] Validating active workshop item 3476612748 ...
+[2025-05-13 18:19:04] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:19:04] AppID 4000 has no changes, 1 active: 4000 (1320782847369301108), 1 target: 4000 (1320782847369301108),
+[2025-05-13 18:19:04] AppID 4000 Workshop update changed : Running Update,Staging,
+[2025-05-13 18:19:04] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:19:04] AppID 4000 Workshop update changed : Running Update,Committing,
+[2025-05-13 18:19:04] AppID 4000 starting commit from "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop/downloads/4000" to "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop/content/4000" : 0 updated, 0 moved, 0 deleted files
+[2025-05-13 18:19:04] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:19:04] AppID 4000 Workshop update changed : None
+[2025-05-13 18:19:04] AppID 4000 scheduler finished : removed from schedule (result No Error, state 0x0) 
+
+
+[2025-05-13 18:22:27] Client version: 1745888136
+[2025-05-13 18:22:27] Loaded 0 apps from install folder "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\appmanifest_*.acf".
+[2025-05-13 18:22:27] Triggered async write of Steam library folders configuration (1 libraries).
+[2025-05-13 18:22:28] AppID 4000 scheduler update : Priority First, not played for 1747149748 seconds, update disabled for 0 seconds
+[2025-05-13 18:22:28] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:22:28] AppID 4000 Workshop update changed : Running Update,Reconfiguring,
+[2025-05-13 18:22:28] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:22:28] AppID 4000 Workshop update changed : Running Update,Verifying Installed,
+[2025-05-13 18:22:28] Validating active workshop item 3476612748 ...
+[2025-05-13 18:22:28] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:22:28] AppID 4000 has no changes, 1 active: 4000 (1320782847369301108), 1 target: 4000 (1320782847369301108),
+[2025-05-13 18:22:28] AppID 4000 Workshop update changed : Running Update,Staging,
+[2025-05-13 18:22:28] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:22:28] AppID 4000 Workshop update changed : Running Update,Committing,
+[2025-05-13 18:22:28] AppID 4000 starting commit from "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop/downloads/4000" to "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop/content/4000" : 0 updated, 0 moved, 0 deleted files
+[2025-05-13 18:22:28] AppID 4000 Workshop update changed : Running Update,
+[2025-05-13 18:22:28] AppID 4000 Workshop update changed : None
+[2025-05-13 18:22:28] AppID 4000 scheduler finished : removed from schedule (result No Error, state 0x0) 

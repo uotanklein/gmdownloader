@@ -1,0 +1,50 @@
+
+
+[2025-05-13 17:14:36] Client version: 1745888136
+[2025-05-13 17:14:36] Loading workshop items for 0 installed apps for user [a:1:3651573049]:
+[2025-05-13 17:14:39] [AppID 4000] Loaded workshop items in "x:\uotanklein\desktop\gmdownloader\src\data\3478240689\steamapps\workshop" (0 installed, 0 needed)
+[2025-05-13 17:14:39] [AppID 4000] Download item 3478240689 requested by app
+[2025-05-13 17:14:39] [AppID 4000] Starting Workshop download job (requested item 3478240689 )
+[2025-05-13 17:14:39] [AppID 4000] Detected workshop change (latest from server) : changed cached item 3478240689, new manifest 3557583516193647639
+[2025-05-13 17:14:45] [AppID 4000] Download item 3478240689 result : OK
+[2025-05-13 17:14:45] [AppID 4000] Finished Workshop download job : No Error
+[2025-05-13 17:14:45] [AppID 4000] Updating workshop item details failed with Failure
+
+
+[2025-05-13 18:10:48] Client version: 1745888136
+[2025-05-13 18:10:48] Loading workshop items for 0 installed apps for user [a:1:4210296935]:
+[2025-05-13 18:10:50] [AppID 4000] Loaded workshop items in "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop" (0 installed, 0 needed)
+[2025-05-13 18:10:50] [AppID 4000] Download item 3476612748 requested by app
+[2025-05-13 18:10:50] [AppID 4000] Starting Workshop download job (requested item 3476612748 )
+[2025-05-13 18:10:51] [AppID 4000] Detected workshop change (latest from server) : changed cached item 3476612748, new manifest 1320782847369301108
+[2025-05-13 18:10:53] [AppID 4000] Download item 3476612748 result : OK
+[2025-05-13 18:10:53] [AppID 4000] Finished Workshop download job : No Error
+[2025-05-13 18:10:53] [AppID 4000] Updating workshop item details failed with Failure
+
+
+[2025-05-13 18:17:53] Client version: 1745888136
+[2025-05-13 18:17:53] Loading workshop items for 0 installed apps for user [a:1:191861833]:
+[2025-05-13 18:17:54] [AppID 4000] Loaded workshop items in "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop" (1 installed, 1 needed)
+[2025-05-13 18:17:54] [AppID 4000] Download item 3476612748 requested by app
+[2025-05-13 18:17:54] [AppID 4000] Starting Workshop download job (requested item 3476612748 )
+[2025-05-13 18:17:56] [AppID 4000] Download item 3476612748 result : OK
+[2025-05-13 18:17:56] [AppID 4000] Finished Workshop download job : No Error
+[2025-05-13 18:17:56] [AppID 4000] Updating workshop item details failed with Failure
+
+
+[2025-05-13 18:19:02] Client version: 1745888136
+[2025-05-13 18:19:02] Loading workshop items for 0 installed apps for user [a:1:1190096969]:
+[2025-05-13 18:19:03] [AppID 4000] Loaded workshop items in "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop" (1 installed, 1 needed)
+[2025-05-13 18:19:03] [AppID 4000] Download item 3476612748 requested by app
+[2025-05-13 18:19:03] [AppID 4000] Starting Workshop download job (requested item 3476612748 )
+[2025-05-13 18:19:04] [AppID 4000] Download item 3476612748 result : OK
+[2025-05-13 18:19:04] [AppID 4000] Finished Workshop download job : No Error
+
+
+[2025-05-13 18:22:27] Client version: 1745888136
+[2025-05-13 18:22:27] Loading workshop items for 0 installed apps for user [a:1:4236064973]:
+[2025-05-13 18:22:28] [AppID 4000] Loaded workshop items in "x:\uotanklein\desktop\gmdownloader\src\data\steamapps\workshop" (1 installed, 1 needed)
+[2025-05-13 18:22:28] [AppID 4000] Download item 3476612748 requested by app
+[2025-05-13 18:22:28] [AppID 4000] Starting Workshop download job (requested item 3476612748 )
+[2025-05-13 18:22:28] [AppID 4000] Download item 3476612748 result : OK
+[2025-05-13 18:22:28] [AppID 4000] Finished Workshop download job : No Error

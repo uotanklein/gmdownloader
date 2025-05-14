@@ -1,0 +1,85 @@
+
+
+[2025-05-13 16:23:40] Client version: 1745888136
+[2025-05-13 16:23:40] ThreadedReadFromDisk: loading appinfo cache from: X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf
+[2025-05-13 16:23:40] ThreadedReadFromDisk: failed to open file: X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf
+[2025-05-13 16:23:40] CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
+
+
+[2025-05-13 17:07:11] Client version: 1745888136
+[2025-05-13 17:07:11] ThreadedReadFromDisk: loading appinfo cache from: X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf
+[2025-05-13 17:07:11] ThreadedReadFromDisk: failed to open file: X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf
+[2025-05-13 17:07:11] CAppInfoCacheReadFromDiskThread took 0 milliseconds to initialize
+
+
+[2025-05-13 18:10:47] Client version: 1745888136
+[2025-05-13 18:10:47] ThreadedReadFromDisk: loading appinfo cache from: X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf
+[2025-05-13 18:10:47] ThreadedReadFromDisk: header version: 0x7564429
+[2025-05-13 18:10:47] ThreadedReadFromDisk: apps updated: 739
+[2025-05-13 18:10:47] CAppInfoCacheReadFromDiskThread took 43 milliseconds to initialize
+[2025-05-13 18:10:48] RequestAppInfoUpdate: AppIDs 7
+[2025-05-13 18:10:49] Packages changed: force all
+[2025-05-13 18:10:49] Apps changed: 635260=28963077,1176470=28963052,108600=28962998,1105670=28962586,2726750=28962446,404530=28962426,541300=28962385,252490=28962219,
+[2025-05-13 18:10:49] Change number 28962056->28963097, apps: 8/691, packages: 0/0
+[2025-05-13 18:10:49] Requesting 78 apps, 1 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2025-05-13 18:10:49] Requested 69 app access tokens, 0 received, 69 denied
+[2025-05-13 18:10:50] Downloaded 2 apps via HTTP, 23 KB (6 KB compressed)
+[2025-05-13 18:10:50] Requesting 1 apps, 0 packages (full data, 1024 prev attempts, expected 3 KB)
+[2025-05-13 18:10:50] UpdatesJob: finished OK, apps updated 3 (27 KB), packages updated 0 (0 KB)
+[2025-05-13 18:10:50] RequestAppInfoUpdate: AppIDs 4000
+[2025-05-13 18:10:50] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
+[2025-05-13 18:10:50] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2025-05-13 18:10:53] ThreadedWriteToDisk: writing appinfo cache to: X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf
+[2025-05-13 18:10:53] App cache write succeeded X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf (739 apps, 2109 KB) in 122 ms
+
+
+[2025-05-13 18:17:51] Client version: 1745888136
+[2025-05-13 18:17:51] ThreadedReadFromDisk: loading appinfo cache from: X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf
+[2025-05-13 18:17:51] ThreadedReadFromDisk: header version: 0x7564429
+[2025-05-13 18:17:51] ThreadedReadFromDisk: apps updated: 739
+[2025-05-13 18:17:51] CAppInfoCacheReadFromDiskThread took 34 milliseconds to initialize
+[2025-05-13 18:17:53] RequestAppInfoUpdate: AppIDs 7
+[2025-05-13 18:17:53] Packages changed: force all
+[2025-05-13 18:17:53] Apps changed: 258550=28963189,
+[2025-05-13 18:17:53] Change number 28963097->28963224, apps: 1/95, packages: 0/0
+[2025-05-13 18:17:53] Requesting 71 apps, 1 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2025-05-13 18:17:54] Requested 69 app access tokens, 0 received, 69 denied
+[2025-05-13 18:17:54] Requesting 1 apps, 0 packages (full data, 1024 prev attempts, expected 4 KB)
+[2025-05-13 18:17:54] UpdatesJob: finished OK, apps updated 1 (4 KB), packages updated 0 (0 KB)
+[2025-05-13 18:17:54] RequestAppInfoUpdate: AppIDs 4000
+[2025-05-13 18:17:54] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
+[2025-05-13 18:17:54] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2025-05-13 18:17:56] ThreadedWriteToDisk: writing appinfo cache to: X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf
+[2025-05-13 18:17:56] App cache write succeeded X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf (739 apps, 2109 KB) in 116 ms
+
+
+[2025-05-13 18:19:01] Client version: 1745888136
+[2025-05-13 18:19:01] ThreadedReadFromDisk: loading appinfo cache from: X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf
+[2025-05-13 18:19:01] ThreadedReadFromDisk: header version: 0x7564429
+[2025-05-13 18:19:01] ThreadedReadFromDisk: apps updated: 739
+[2025-05-13 18:19:01] CAppInfoCacheReadFromDiskThread took 33 milliseconds to initialize
+[2025-05-13 18:19:02] RequestAppInfoUpdate: AppIDs 7
+[2025-05-13 18:19:02] Packages changed: force all
+[2025-05-13 18:19:02] Change number 28963224->28963250, apps: 0/18, packages: 0/0
+[2025-05-13 18:19:02] Requesting 70 apps, 1 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2025-05-13 18:19:03] Requested 69 app access tokens, 0 received, 69 denied
+[2025-05-13 18:19:03] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2025-05-13 18:19:03] RequestAppInfoUpdate: AppIDs 4000
+[2025-05-13 18:19:03] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
+[2025-05-13 18:19:03] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+
+
+[2025-05-13 18:22:25] Client version: 1745888136
+[2025-05-13 18:22:25] ThreadedReadFromDisk: loading appinfo cache from: X:\uotanklein\desktop\gmdownloader\src\bin/appcache/appinfo.vdf
+[2025-05-13 18:22:25] ThreadedReadFromDisk: header version: 0x7564429
+[2025-05-13 18:22:25] ThreadedReadFromDisk: apps updated: 739
+[2025-05-13 18:22:25] CAppInfoCacheReadFromDiskThread took 34 milliseconds to initialize
+[2025-05-13 18:22:26] RequestAppInfoUpdate: AppIDs 7
+[2025-05-13 18:22:27] Packages changed: force all
+[2025-05-13 18:22:27] Change number 28963250->28963316, apps: 0/53, packages: 0/0
+[2025-05-13 18:22:27] Requesting 70 apps, 1 packages (meta data, 1024 prev attempts, expected 3 KB)
+[2025-05-13 18:22:27] Requested 69 app access tokens, 0 received, 69 denied
+[2025-05-13 18:22:27] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)
+[2025-05-13 18:22:27] RequestAppInfoUpdate: AppIDs 4000
+[2025-05-13 18:22:27] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts, expected 0 KB)
+[2025-05-13 18:22:28] UpdatesJob: finished OK, apps updated 0 (0 KB), packages updated 0 (0 KB)

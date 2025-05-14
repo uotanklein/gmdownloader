@@ -1,0 +1,33 @@
+"UserLocalConfigStore"
+{
+	"AppInfoChangeNumber"		"28963316"
+	"depots"
+	{
+		"4000"
+		{
+			"CDN"
+			{
+				"alibaba.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1747156479"
+				}
+				"edgenext.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1747159850"
+				}
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1747156482"
+				}
+				"fastly.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1747160274"
+				}
+			}
+		}
+	}
+}

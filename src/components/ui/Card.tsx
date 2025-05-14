@@ -10,7 +10,7 @@ const quicksand = Quicksand({
 
 export default function Card(props: { 'card-data': CardData }) {
     const green_clr_classname = 'text-[rgb(107,183,76)]';
-    const { stars, img, name, downloads } = props['card-data'];
+    const { stars, img, name, downloads, is_blocked } = props['card-data'];
     const get_star_svg = (id: number) => (
         <svg key={id} width='15' height='15' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg' fill='currentColor' className={`${id < stars ? green_clr_classname : 'text-[rgb(41,63,88)]'}`}>
             <polygon points='50,5 61,38 95,38 67,59 78,91 50,70 22,91 33,59 5,38 39,38' />
@@ -25,9 +25,22 @@ export default function Card(props: { 'card-data': CardData }) {
         return arr;
     };
 
+    const clickHandler = () => {
+        if (is_blocked) {
+            return;
+        }
+    };
+
     const max_stars = Math.max(5, stars);
     return (
-        <button className='w-[230px] h-[300px] bg-transparent hover:bg-[rgba(255,255,255,0.2)] rounded transition duration-300 p-[10px] hover:cursor-pointer'>
+        <button
+            className='w-[230px] h-[300px] bg-transparent hover:bg-[rgba(255,255,255,0.2)] rounded transition duration-300 p-[10px] hover:cursor-pointer'
+            onMouseDown={() => {
+                const audio = new Audio('/audio/public_sound_btn_on.ogg');
+                audio.play();
+            }}
+            onClick={clickHandler}
+        >
             <div className='w-full h-[35px] flex justify-between items-center mb-[10px]'>
                 <div className='flex'>
                     <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='20' height='20' fill='currentColor' className={`${green_clr_classname} mr-[5px]`}>
@@ -38,7 +51,7 @@ export default function Card(props: { 'card-data': CardData }) {
                 </div>
                 <div className='flex'>{get_stars(max_stars)}</div>
             </div>
-            <Image src={`${img}`} width={230} height={190} alt='img' className='mb-[15px] shadow-md w-[230px] h-[200px]' />
+            <Image src={`${img}`} width={230} height={190} alt='img' className='mb-[15px] shadow-md w-[230px] h-[200px]' unoptimized />
             <div className='flex justify-center items-center'>
                 <p className={`${quicksand.variable} text-lg text-center`}>{name}</p>
             </div>

@@ -45,7 +45,7 @@ export default function Header() {
                 </div>
                 <Input name='search' placeholder='Search...' d='M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z' />
                 <div className='w-15'>
-                    <button className='flex justify-center items-center hover:cursor-pointer'>
+                    {/* <button className='flex justify-center items-center hover:cursor-pointer'>
                         <svg
                             className='w-7 h-7 text-[rgb(127,127,127)] hover:text-white transition duration-300'
                             fill='none'
@@ -61,7 +61,7 @@ export default function Header() {
                             />
                             <circle cx='12' cy='12' r='3' stroke='currentColor' strokeWidth='2' fill='none' />
                         </svg>
-                    </button>
+                    </button> */}
                 </div>
             </div>
         </div>

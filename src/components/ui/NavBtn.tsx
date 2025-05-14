@@ -39,7 +39,14 @@ export default function NavBtn({ text, onClick, active }: NavBtnProps) {
     );
 
     return (
-        <button className={classNames} onClick={onClick}>
+        <button
+            className={classNames}
+            onClick={onClick}
+            onMouseDown={() => {
+                const audio = new Audio('/audio/public_sound_btn_on.ogg');
+                audio.play();
+            }}
+        >
             {text}
         </button>
     );
