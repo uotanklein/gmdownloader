@@ -1,10 +1,4 @@
 <p align="center">
-  <a href="https://codeclimate.com/github/UotanKlein/workshop-downloader/maintainability">
-    <img src="https://api.codeclimate.com/v1/badges/26ffa6f4b43c9c5d38d2/maintainability" alt="Code Climate">
-  </a>
-</p>
-
-<p align="center">
     <img src="https://i.imgur.com/P9L5wrv.png" alt="Logo" style="width:50%; height:auto;">
 </p>
 
