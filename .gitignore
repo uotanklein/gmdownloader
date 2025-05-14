@@ -43,4 +43,6 @@ next-env.d.ts
 .prettierrc
 
 src/data/*
-!src/data/.gitkeep
+src/data/source/*
+!src/data/source
+!src/data/source/.gitkeep

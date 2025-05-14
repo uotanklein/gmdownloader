@@ -18,7 +18,14 @@ export const search = async (addon_id: number) => {
             },
         });
 
-        return response.data;
+        const details = response.data?.response?.publishedfiledetails?.[0];
+
+        if (!details) {
+            throw new Error('Steam API returned invalid data');
+        }
+
+        const { title, preview_url, subscriptions, favorited, creator_app_id } = details;
+        return { title, preview_url, subscriptions, favorited, creator_app_id };
     } catch (err) {
         console.log('Steam API error:', err);
         throw err;
@@ -31,7 +38,7 @@ const output_source_dir = 'src/data/source';
 const gmad_exe = 'src/bin/gmad.exe';
 const scmd_exe = 'src/bin/steamcmd.exe';
 
-export class AddonDownloader {
+class AddonDownloader {
     id?: number;
     user_id: number;
     addon_id: number;
@@ -47,7 +54,9 @@ export class AddonDownloader {
     }
 
     async download() {
-        const commands = ['+force_install_dir', path.join(output_dir, this.user_id.toString()), '+login', 'anonymous', '+workshop_download_item', app_id.toString(), this.addon_id.toString(), '+quit'];
+        const download_dir = path.join(output_dir, this.user_id.toString());
+        await fsp.mkdir(download_dir, { recursive: true });
+        const commands = ['+force_install_dir', download_dir, '+login', 'anonymous', '+workshop_download_item', app_id.toString(), this.addon_id.toString(), '+quit'];
 
         return new Promise<void>((resolve, reject) => {
             const scmd = spawn(scmd_exe, commands);
@@ -169,3 +178,5 @@ export class AddonDownloader {
         }
     }
 }
+
+export const get_addon_downloader = async (user_id: number, addon_id: number) => new AddonDownloader(user_id, addon_id);

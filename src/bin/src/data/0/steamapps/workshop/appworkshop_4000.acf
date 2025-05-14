@@ -1,0 +1,25 @@
+"AppWorkshop"
+{
+	"appid"		"4000"
+	"SizeOnDisk"		"0"
+	"NeedsUpdate"		"0"
+	"NeedsDownload"		"1"
+	"TimeLastUpdated"		"0"
+	"TimeLastAppRan"		"0"
+	"LastBuildID"		"0"
+	"WorkshopItemsInstalled"
+	{
+	}
+	"WorkshopItemDetails"
+	{
+		"375416144"
+		{
+			"manifest"		"-1"
+			"ugchandle"		"432699385302073630"
+			"timeupdated"		"1442246900"
+			"timetouched"		"1747191045"
+			"latest_timeupdated"		"1442246900"
+			"latest_manifest"		"-1"
+		}
+	}
+}

@@ -142,3 +142,23 @@
 [2025-05-13 18:22:25] Verifying all executable checksums
 [2025-05-13 18:22:25] Verification complete
 [2025-05-13 18:22:29] Shutdown
+
+
+[2025-05-14 05:50:41] Startup - updater built Apr 28 2025 14:10:30
+[2025-05-14 05:50:41] Startup - Steam Client launched with: src/bin/steamcmd.exe +force_install_dir src\data\0  <+61 truncated>
+[2025-05-14 05:50:41] Windows 10.0.26100.0, 0, 2, 256, 1, 48 
+[2025-05-14 05:50:41] Failed to load cached hosts file (File 'update_hosts_cached.vdf' not found), using defaults
+[2025-05-14 05:50:41] Using the following download hosts for Public, Realm steamglobal
+[2025-05-14 05:50:41] 1. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+[2025-05-14 05:50:41] Checking for update on startup
+[2025-05-14 05:50:41] Проверка на наличие обновлений...
+[2025-05-14 05:50:41] Downloading manifest: https://client-update.steamstatic.com/steam_cmd_win32
+[2025-05-14 05:50:41] Manifest download: send request
+[2025-05-14 05:50:41] Manifest download: waiting for download to finish
+[2025-05-14 05:50:41] Manifest download: finished
+[2025-05-14 05:50:41] Download skipped: /steam_cmd_win32 version 1745888136, installed version 1745888136, existing pending version 0
+[2025-05-14 05:50:41] Nothing to do
+[2025-05-14 05:50:41] Проверка установки...
+[2025-05-14 05:50:41] Verifying all executable checksums
+[2025-05-14 05:50:42] Verification complete
+[2025-05-14 05:51:06] Shutdown

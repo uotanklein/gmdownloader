@@ -4,7 +4,7 @@ import * as steamApi from '@/lib/steamApi';
 export async function POST(_: NextRequest, { params }: { params: Promise<{ user_id: string; addon_id: string }> }) {
     try {
         const { user_id, addon_id } = await params;
-        new steamApi.AddonDownloader(+user_id, +addon_id).do();
+        (await steamApi.get_addon_downloader(+user_id, +addon_id)).do();
         return new Response(null, {
             status: 200,
         });

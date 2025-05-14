@@ -243,3 +243,53 @@
 [2025-05-13 18:22:28] [Logged On, 4, 3] [a:1:4236064973] LogOff()
 [2025-05-13 18:22:28] [Logging Off, 4, 3] [a:1:4236064973] AsyncDisconnect( bDontWaitOnTCPShutdown: true )
 [2025-05-13 18:22:28] [Logging Off, 0, 3] [a:1:4236064973] Log session ended
+
+
+[2025-05-14 05:50:42] Client version: 1745888136
+[2025-05-14 05:50:42] Log session started
+[2025-05-14 05:50:42] [Logged Off, 0, 0] [U:1:0] CCMInterface::SetSteamID( [U:1:0] )
+[2025-05-14 05:50:42] IPv6 HTTP connectivity test (ipv6check-http.steamserver.net / 0.0.0.0:80 (0.0.0.0:80)) - TIMEOUT
+[2025-05-14 05:50:42] IPv6 UDP connectivity test (ipv6check-udp.steamserver.net) - FAILED, no addresses resolved
+[2025-05-14 05:50:42] Clearing in-memory token - 1 (OK): SetLoginInformation
+[2025-05-14 05:50:42] [Logged Off, 0, 0] [a:1:0] CCMInterface::SetSteamID( [a:1:0] )
+[2025-05-14 05:50:42] [Logged Off, 0, 0] [a:1:0] CCMInterface::SetSteamID( [a:1:0] )
+[2025-05-14 05:50:42] [Logged Off, 4, 0] [a:1:0] EConnect called - scheduling connection for 50ms from now
+[2025-05-14 05:50:42] [Logged Off, 4, 0] [a:1:0] LogOn() called; not connected yet, scheduling connection. Schedule init returned 22
+[2025-05-14 05:50:42] [Logged Off, 4, 0] [a:1:0] EConnect called - scheduling connection for 50ms from now
+[2025-05-14 05:50:42] [Logged Off, 4, 0] [a:1:0] EConnect called - scheduling connection for 50ms from now
+[2025-05-14 05:50:42] [Logged Off, 4, 0] [a:1:0] EConnect called - scheduling connection for 50ms from now
+[2025-05-14 05:50:42] CCMInterface::YieldingConnect -- calling ISteamDirectory/GetCMListForConnect/?cellid=149&qoslevel=3
+[2025-05-14 05:50:42] GetCMListForConnect -- got 18 Netfilter CMs and 342 WebSocket CMs
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'fra1' count: 32
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'sto1' count: 32
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'fra2' count: 33
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'sto2' count: 30
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'waw1' count: 30
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'ams1' count: 30
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'vie1' count: 30
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'par1' count: 31
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'mad1' count: 31
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'lhr1' count: 32
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'tyo3' count: 33
+[2025-05-14 05:50:42] GetCMListForConnect -- DC 'iad1' count: 16
+[2025-05-14 05:50:42] [Connecting, 4, 0] [a:1:0] CM Directory list says 100% of connections should be websockets, we rolled 53 - using WebSockets as default.
+[2025-05-14 05:50:42] [Connecting, 4, 0] [a:1:0] PingWebSocketCM() (cmp2-sto2.steamserver.net:27019) starting...
+[2025-05-14 05:50:42] [Connecting, 4, 0] [a:1:0] PingWebSocketCM() (cmp1-sto2.steamserver.net:27019) starting...
+[2025-05-14 05:50:42] [Connecting, 4, 0] [a:1:0] PingWebSocketCM() (cmp2-fra1.steamserver.net:27024) starting...
+[2025-05-14 05:50:42] [Connecting, 4, 0] [a:1:0] PingWebSocketCM() (cmp2-fra1.steamserver.net:27020) starting...
+[2025-05-14 05:50:42] [Connecting, 4, 0] [a:1:0] PingWebSocketCM() (cmp2-sto2.steamserver.net:27019) results: 36.0023ms + load 42.0000
+[2025-05-14 05:50:42] [Connecting, 4, 0] [a:1:0] PingWebSocketCM() stopping early for good host (cmp2-sto2.steamserver.net:27019)
+[2025-05-14 05:50:43] [Connecting, 4, 0] [a:1:0] PingWebSocketCM() (cmp1-sto2.steamserver.net:27019) results: 31.7396ms + load 42.0000
+[2025-05-14 05:50:43] [Connecting, 4, 0] [a:1:0] PingWebSocketCM() (cmp2-fra1.steamserver.net:27024) results: 67.5240ms + load 37.0000
+[2025-05-14 05:50:43] [Connecting, 4, 0] [a:1:0] PingWebSocketCM() (cmp2-fra1.steamserver.net:27020) results: 59.4959ms + load 43.0000
+[2025-05-14 05:50:43] [Connecting, 4, 3] [a:1:0] Connect() starting connection (eNetQOSLevelHigh, cmp1-sto2.steamserver.net:27019, WebSocket)
+[2025-05-14 05:50:43] [Connecting, 4, 3] [a:1:0] ConnectionCompleted() (155.133.252.68:27019, WebSocket) local address (192.168.0.100:62591)
+[2025-05-14 05:50:43] [Connecting, 4, 3] [a:1:0] Client thinks it can connect via: UDP - yes, TCP - yes, WebSocket:443 - yes, WebSocket:Non443 - yes
+[2025-05-14 05:50:43] [Connected, 4, 3] [a:1:0] Logging on [a:1:0]
+[2025-05-14 05:50:43] [Logging On, 4, 3] [a:1:0] RecvMsgClientLogOnResponse() : [a:1:2328167755] 'OK'
+[2025-05-14 05:50:43] Connectivity test: result=Connected (since 0.0s ago), prev=Unknown, in progress=0
+[2025-05-14 05:50:43] [Logged On, 4, 3] [a:1:2328167755] RecvMsgClientLogOnResponse() : processing complete
+[2025-05-14 05:51:06] [Logged On, 4, 3] [a:1:2328167755] ResetVoiceRecording() (was recording: 0) (last get voice time: 1747191066 seconds ago)
+[2025-05-14 05:51:06] [Logged On, 4, 3] [a:1:2328167755] LogOff()
+[2025-05-14 05:51:06] [Logging Off, 4, 3] [a:1:2328167755] AsyncDisconnect( bDontWaitOnTCPShutdown: true )
+[2025-05-14 05:51:06] [Logging Off, 0, 3] [a:1:2328167755] Log session ended
