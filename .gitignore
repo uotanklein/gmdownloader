@@ -50,3 +50,5 @@ src/data/source/*
 src/bin/*
 !src/bin/gmad.exe
 !src/bin/steamcmd.exe
+
+/storage/

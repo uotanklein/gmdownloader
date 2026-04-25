@@ -1,15 +1,14 @@
-import { NextRequest } from 'next/server';
-import * as db from '@/lib/db';
+import { ensureWorkspace } from '@/lib/addonStore';
 
-export async function POST(req: NextRequest) {
+export const runtime = 'nodejs';
+export const dynamic = 'force-dynamic';
+
+export async function POST() {
     try {
-        await db.init_db();
-        return new Response(null, {
-            status: 200,
-        });
-    } catch (err) {
-        return new Response(null, {
-            status: 400,
-        });
+        await ensureWorkspace();
+        return Response.json({ ok: true }, { headers: { 'Cache-Control': 'no-store' } });
+    } catch (error) {
+        const message = error instanceof Error ? error.message : 'Не удалось инициализировать хранилище.';
+        return Response.json({ message }, { status: 500 });
     }
 }
